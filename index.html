@@ -18,6 +18,31 @@
             </div>
 
 
+            <div class="topnav">
+                <a href="#home" class="active">AEJKR</a>
+                <div id="myLinks">
+                  <a href="index.html">Home</a>
+                  <a href="html/about.html">About</a>
+                  <a href="html/test.html">Test</a>
+                  <a href="html/contact.html">Contact</a>
+                  </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+              <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
+
+
             <!-- <div style="background:dodgerblue;"> -->
                 <div class="banner">
                     <div class="heroImage">
@@ -42,9 +67,9 @@
 
             </header>
 
-                <div class="tbsHeader">
+                <!-- <div class="tbsHeader">
                     <h1>Table Booking System</h1>
-                </div>
+                </div> -->
                 <main>
 
                     <div class="welcomeHeading">
