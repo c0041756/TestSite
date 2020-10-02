@@ -44,7 +44,7 @@ li {
 
 a {
   display: block;
-  padding: 35px;
+  padding: 30px;
   background-color:#2f302f;
   color: white;
   border: goldenrod;
@@ -72,6 +72,9 @@ h1 {
 .articles {
   text-align: justify;
   margin-left: 20px;
+  margin-right: 525px;
+  border-style:solid;
+  border-color:black
   
 }
 
@@ -80,8 +83,23 @@ h1 {
   float: right;
   border: 2px solid goldenrod;
   border-width: 0 1px goldenrod;
- }
+  
+  }
 
+ 
  .topnav {
    display: none;
  }
+
+
+ footer{
+  background: black;
+  margin-top:40px;
+  padding:40px;
+}
+footer > div > p{
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+
+}
