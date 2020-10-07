@@ -22,6 +22,7 @@ ul {
     background-size: cover;
     position: relative;
     padding-bottom: 6.25%;
+    
 }
 
 .heroText {
@@ -83,7 +84,7 @@ h1 {
   float: right;
   border: 2px solid goldenrod;
   border-width: 0 1px goldenrod;
-  
+  margin-right: 20px;
   }
 
  
