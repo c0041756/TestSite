@@ -1,6 +1,7 @@
 body {
-  background-color: black;
-  color: azure;
+  background-color:black;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -14,6 +15,13 @@ ul {
 /* .banner {
   img src:"C:\zDTSS\Git Repo - Task 1\task-1-table-booking\images\table-set.jpg";
 } */
+
+
+.desktopMenu  {
+  background-color: black;
+  
+  }
+
 
 .heroImage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagesCss/table-set.jpg");
@@ -41,7 +49,7 @@ a:hover {
 
 li {
   display: inline-block;
-}
+  }
 
 a {
   display: block;
@@ -52,6 +60,7 @@ a {
 }
 
 .logo {
+  float: left;
   margin-left: 15px;
   margin-top: 15px;
   color: goldenrod;
@@ -75,7 +84,10 @@ h1 {
   margin-left: 20px;
   margin-right: 525px;
   border-style:solid;
-  border-color:black
+  border-color:black;
+  background-color:black;
+  scroll-padding-right: auto;
+  padding-left: auto;
   
 }
 
@@ -85,6 +97,7 @@ h1 {
   border: 2px solid goldenrod;
   border-width: 0 1px goldenrod;
   margin-right: 20px;
+  
   }
 
  
