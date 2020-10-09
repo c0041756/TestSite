@@ -1,0 +1,81 @@
+
+/* relative image for mobile site pertaining to Book Now image
+img {
+    width: auto;
+    max-width: 75%;
+    height: auto;
+    max-height: 75%;
+    
+}
+
+.logo{display: none;
+}
+
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: goldenrod;
+    color: black;
+  }
+  
+  .active {
+    background-color:black;
+    color: white;
+  }
+
+
+  ul {
+      display: none;
+  }
+
+  .articles {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  footer{
+    background: black;
+    margin-top:10px;
+    padding:10px;
+  }
+  footer > div > p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+  
+  } */

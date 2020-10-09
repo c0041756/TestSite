@@ -4,12 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
+    <link rel="stylesheet" href="../css/bookingDesktopStyle.css" media="only screen and (min-width: 680px)">
+    <link rel="stylesheet" href="../css/bookingMobileStyle.css" media="only screen and (max-width: 679px)">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');</style>
 </head>
 <body>
-    <h2>Book A Table</h2>
+  <header>
+    <div class="logo">                
+        AEJKR
+    </div>
+    <div class="desktopMenu">
+          <nav>
+        <ul>
+            <li><a href="../TestSite/index.html">Home</a></li>
+            <li><a href="../TestSite/html/about.html  ">About</a></li>
+            <li><a href="../TestSite/html/booking.html">Booking</a></li>
+            <li><a href="../TestSite/html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+        </div>  
+  
+        <div class="topnav">
+          <a href="#home" class="active">AEJKR</a>
+          <div id="myLinks">
+            <a href="../TestSite/index.html">Home</a>
+            <a href="../TestSite/html/about.html">About</a>
+            <a href="../TestSite/html/booking.html">Booking</a>
+            <a href="../TestSite/html/contact.html">Contact</a>
+            </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-<!-- is the below commented out neededed -->
-<!-- <form action="/action_page.php"> -->
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script>
+  
+  <div class="bookingFormTitle">
+  <h1>Book A Table</h1>
+</div>
+
+
+<main>
+
+<div class="bookingFormFieldTitle">
+  <h2>Contact Details</h2>
+</div>
+<br>
+
+<!-- <div class="bookForm">
+
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" required><br>
   <label for="lname">Last name:</label><br>
@@ -20,10 +72,37 @@
   <input type="tel" id="phonenumber" name="phonenumber" maxlength="11" required><br><br>
 
   <input type="submit" value="Submit">
-</form> 
+
+  </div> -->
 
 
+  
 
+    <div class="allArticles">
+        
+      <div>
+          <p>As AEJKR works on Android, IOS, Mac OS and Windows you get to view and book all from the comfort of your mobile device.</p>
+      </div>
+
+      
+      <div>
+          <p>AEJKR connects you to over 100 restaurants across major cities in the UK. As AEJKR works on Android, IOS, Mac OS and Windows you get to view and book all from the comfort of your mobile device.</p> 
+      </div>
+
+
+      <div>
+        <p>We have a 15 minute grace period. Please call us if you are running later than 15 minutes after your booked time. We may contact you about this booking, so please ensure your email and phone number are up to date. Your table will be booked for 1 hour 30 minutes for parties of up to 2; 2 hours for parties of up to 4; 2 hours 15 minutes for parties of up to 6; and 2 hours 30 minutes for parties of 7+.</p>
+      </div>
+
+    </div>
 
 </body>
+
+</main>
+<footer>
+  <div>
+      <p>&copy;  2020 AEJKR</p>
+  </div>
+</footer>
+
 </html>
