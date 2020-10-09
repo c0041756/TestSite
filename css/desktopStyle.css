@@ -4,6 +4,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+main{
+  max-width: 1920px;
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -82,7 +88,7 @@ h1 {
 .articles {
   text-align: justify;
   margin-left: 20px;
-  margin-right: 525px;
+  margin-right: 570px;
   border-style:solid;
   border-color:black;
   background-color:black;
@@ -97,6 +103,8 @@ h1 {
   border: 2px solid goldenrod;
   border-width: 0 1px goldenrod;
   margin-right: 20px;
+  margin-left: 20px;
+  
   
   }
 
