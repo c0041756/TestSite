@@ -72,6 +72,15 @@ a {
   color: goldenrod;
 }
 
+.regLog{
+  float: right;
+  
+}
+
+.login{
+  float: right;
+}
+
 h1 {
   color: goldenrod;
 }
