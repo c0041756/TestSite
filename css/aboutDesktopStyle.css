@@ -36,6 +36,9 @@ body {
     margin-top: 20px;
   }
 
+  .topnav{
+    display: none;
+  }
 
   .desktopMenu {
     background-color: black;
@@ -139,4 +142,16 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+
+footer {
+  background: black;
+  margin-top: 40px;
+  padding: 40px;
+}
+footer > div > p {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
 }
