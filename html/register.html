@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/registerDesktopStyle.css" media="only screen and (min-width: 680px)">
+    <link rel="stylesheet" href="../css/registerMobileStyle.css" media="only screen and (max-width: 679px)">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');</style>
+</head>
+<body>
+  <header>
+    <div class="logo">                
+      <a href="../index.html">AEJKR</a> 
+  </div>
+    <div class="desktopMenu">
+          <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./booking.html">Booking</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+        </div>  
+  
+        <!-- applicable to mobile site only  -->
+        <div class="topnav">
+          <a href="#home" class="active">AEJKR</a>
+          <div id="myLinks">
+            <a href="../index.html">Home</a>
+            <a href="../html/about.html">About</a>
+            <a href="./booking.html">Booking</a>
+            <a href="../TestSite/html/contact.html">Contact</a>
+            </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="../imagesHtml/burgerMenu.jpg" alt="Menu Button" style="width: 27vw; max-width: 25px;">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script>
+  
+  <div class="bookingFormTitle">
+  <h1>Register Today!</h1>
+</div>
+
+
+<main>
+
+
+  <div>
+    <p>First off lets collect some details, don't worry your reservation is just around the corner!</p>
+</div>
+
+
+<div class="bookingFormFieldTitle">
+  <h3>Sign Up Below</h3>
+</div>
+
+
+
+    <div class="allArticles">
+
+      <!-- <div>
+          <p>AEJKR connects you to over 100 restaurants across major cities in the UK. As AEJKR works on Android, IOS, Mac OS and Windows you get to view and book all from the comfort of your mobile device.</p> 
+      </div> -->
+
+      <div class="bookForm">
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" placeholder="Enter First Name" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" placeholder="Enter Last Name" name="lname" required><br>
+        <label for="email">E-Mail:</label><br>
+        <input type="text" id="email" placeholder="Enter E-Mail" name="email" required><br>
+        <label for="phonenumber">Phone Number:</label><br>
+        <input type="tel" id="phonenumber" placeholder="Enter Telephone Number" name="phonenumber" maxlength="11" required><br><br>
+      
+        <input type="submit" value="Submit">
+        <p><b>By signing up you agree to our <a class="tcLinks" href="">Terms</a>, Data Policy and Cookies Policy</b></p>
+      
+        </div>
+           
+      
+      <div class="registerText">
+        <h3>Benefits of being a member!</h3>
+
+        <div class="bulletPointList">
+          <ul class="benefits">
+            <li>Access to book and reserve tables from all restaurants on AEJKR</li>
+            <br>
+            <br>
+            <li>Exclusive offers and discounts</li>
+            <br>
+            <br>
+            <li>Free</li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+</body>
+
+</main>
+<footer>
+  <div>
+      <p>&copy;  2020 AEJKR</p>
+  </div>
+</footer>
+
+</html>

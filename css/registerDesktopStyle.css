@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.topnav {
+  display: none;
+}
+
+a:hover {
+  background: goldenrod;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  border: goldenrod;
+}
+
+.logo {
+  float: left;
+  color: goldenrod;
+}
+
+.logo a{
+  text-decoration: none;
+  }
+
+.logo a:hover{
+  background: none;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+}
+
+.bookingFormTitle {
+  margin-left: 20px;
+}
+
+.benefits li::before{
+  content: "\2022";
+  color:goldenrod;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul.benefits{
+  text-align: left;
+}
+
+h3{
+  text-align: left;
+}
+
+a.tcLinks{
+  background: transparent;
+  text-decoration: none;
+  border: none;
+  padding: 0px;
+}
+
+a.tcLinks:hover{
+background: transparent;
+
+}
+
+
+footer {
+  background: black;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+footer > div > p {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.allArticles {
+  display: flex;
+  flex-wrap: nowrap;
+}
+  
+.allArticles > div{
+    flex:1 1 50%;
+    padding-right:10px;
+}
+
+.registerText{
+  text-align: center;
+}
