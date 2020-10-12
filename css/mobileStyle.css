@@ -12,6 +12,10 @@ img {
 }
 
 
+.heroImage{
+  display: none;
+}
+
 .mobile-container {
     max-width: 480px;
     margin: auto;
