@@ -1,6 +1,10 @@
 
 
 
+.logo{
+    display: none;
+}
+
 .mobile-container {
     max-width: 480px;
     margin: auto;

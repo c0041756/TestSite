@@ -43,7 +43,6 @@ ul {
   transform: translate(-50%, -50%); */
   color: white;
 }
-
 a:hover {
   background: goldenrod;
 }
@@ -58,6 +57,14 @@ a {
   background-color: black;
   color: white;
   border: goldenrod;
+}
+
+.Tlogo{
+  background: transparent;
+}
+
+.Tlogo:hover{
+background: transparent;
 }
 
 .logo {
@@ -126,7 +133,6 @@ footer > div > p {
   font-size: 0.8rem;
 }
 
-
 /* This is the sliding photos */
 
 /* .scrollText {
@@ -136,7 +142,3 @@ footer > div > p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white; */
-
-
-
-
