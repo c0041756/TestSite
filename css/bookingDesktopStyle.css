@@ -39,9 +39,15 @@ a {
 
 .logo {
   float: left;
-  margin-left: 15px;
-  margin-top: 15px;
   color: goldenrod;
+}
+
+.logo a{
+  text-decoration: none;
+  }
+
+.logo a:hover{
+  background: none;
 }
 
 h1 {

@@ -1,11 +1,10 @@
 body {
-  background-color:black;
+  background-color: black;
   color: whitesmoke;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-main{
+main {
   max-width: 1920px;
   margin: auto;
 }
@@ -22,21 +21,18 @@ ul {
   img src:"C:\zDTSS\Git Repo - Task 1\task-1-table-booking\images\table-set.jpg";
 } */
 
-
-.desktopMenu  {
+.desktopMenu {
   background-color: black;
-  
-  }
-
+}
 
 .heroImage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagesCss/table-set.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 6.25%;
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("imagesCss/table-set1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 6.25%;
 }
 
 .heroText {
@@ -48,31 +44,39 @@ ul {
   color: white;
 }
 
-
 a:hover {
   background: goldenrod;
 }
 
 li {
   display: inline-block;
-  }
+}
 
 a {
   display: block;
   padding: 30px;
-  background-color:black;
+  background-color: black;
   color: white;
   border: goldenrod;
 }
 
 .logo {
   float: left;
-  margin-left: 15px;
-  margin-top: 15px;
+
+  /* margin-left: 15px;
+  margin-top: 15px; */
   color: goldenrod;
 }
 
-.regLog{
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:hover {
+  background: none;
+}
+
+.regLog {
   float: right;
 }
 
@@ -80,7 +84,7 @@ h1 {
   color: goldenrod;
 }
 
-.tbsHeader{
+.tbsHeader {
   margin-left: 20px;
 }
 
@@ -88,19 +92,16 @@ h1 {
   margin-left: 20px;
 }
 
-
 .articles {
   text-align: justify;
   margin-left: 20px;
   margin-right: 570px;
-  border-style:solid;
-  border-color:black;
-  background-color:black;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
   scroll-padding-right: auto;
   padding-left: auto;
-  
 }
-
 
 .book {
   float: right;
@@ -108,24 +109,34 @@ h1 {
   border-width: 0 1px goldenrod;
   margin-right: 20px;
   margin-left: 20px;
-  
-  
-  }
-
- 
- .topnav {
-   display: none;
- }
-
-
- footer{
-  background: black;
-  margin-top:40px;
-  padding:40px;
 }
-footer > div > p{
+
+.topnav {
+  display: none;
+}
+
+footer {
+  background: black;
+  margin-top: 40px;
+  padding: 40px;
+}
+footer > div > p {
   color: white;
   text-align: center;
   font-size: 0.8rem;
-
 }
+
+
+/* This is the sliding photos */
+
+/* .scrollText {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; */
+
+
+
+
