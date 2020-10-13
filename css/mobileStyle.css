@@ -1,96 +1,97 @@
-
 /* body{
   background-color: black;
   color: white
 } */
 
-
-
-
-
 /* relative image for mobile site pertaining to Book Now image */
 img {
-    width: auto;
-    max-width: 75%;
-    height: auto;
-    max-height: 75%;
-    
+  width: auto;
+  max-width: 75%;
+  height: auto;
+  max-height: 75%;
 }
 
+/* styling to hide the desktop version of the logo */
 
-
-.logo{display: none;
-}
-
-
-.heroImage{
+.logo {
   display: none;
 }
 
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: black;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color:white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: goldenrod;
-    color: black;
-  }
-  
-  .active {
-    background-color:black;
-    color: white;
-  }
+/* styling to hide the banner from the mobile site */
 
+.heroImage {
+  display: none;
+}
 
-  ul {
-      display: none;
-  }
+/* styling to customise the top navigation bar dropdown*/
 
-  .articles {
-    text-align: justify;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
 
-  footer{
-    background: black;
-    margin-top:10px;
-    padding:10px;
-  }
-  footer > div > p{
-    color: white;
-    text-align: center;
-    font-size: 0.8rem;
-  
-  }
+/* styling to hide the links on startup and refresh automatically (script is used on button click to show links)*/
+
+.topnav #myLinks {
+  display: none;
+}
+
+/* Styling to customise the top navigation bar a tags/text to white and in block */
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* styling to theme the burger menu background to rest of theme and position it correctly */
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* styling to customise top navigational bar to theme and sort colour when hovering. */
+
+.topnav a:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+/* styling to customise the block level menu for mobile view/nav */
+.active {
+  background-color: black;
+  color: white;
+}
+
+/* styling to hide the unorderd list which is only applicable desktop site. */
+
+ul {
+  display: none;
+}
+
+/* styling to customise the article tex so that its justified and appropriately positioned for UI on mobile screen */
+
+.articles {
+  text-align: justify;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* footer customisation so that its themed correctly and in the right position */
+footer {
+  background: black;
+  margin-top: 10px;
+  padding: 10px;
+}
+footer > div > p {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}

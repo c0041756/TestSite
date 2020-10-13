@@ -1,3 +1,5 @@
+/* applies main generic styling */
+
 body {
   background-color: black;
   color: whitesmoke;
@@ -9,6 +11,8 @@ main {
   margin: auto;
 }
 
+/* unordered list styling */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,13 +21,13 @@ ul {
   margin-top: 20px;
 }
 
-/* .banner {
-  img src:"C:\zDTSS\Git Repo - Task 1\task-1-table-booking\images\table-set.jpg";
-} */
+/* provide the background colour for the desktop navigational menu */
 
 .desktopMenu {
   background-color: black;
 }
+
+/* Provides the image used for the banner; also provides the smoked effect and prosition of the image. */
 
 .heroImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -35,6 +39,8 @@ ul {
   padding-bottom: 6.25%;
 }
 
+/* this outlines the text overlay used for the banner */
+
 .heroText {
   text-align: center;
   /* position: relative;
@@ -43,13 +49,20 @@ ul {
   transform: translate(-50%, -50%); */
   color: white;
 }
+
+/* generic hover styling for the a tags which are links */
+
 a:hover {
   background: goldenrod;
 }
 
+/* generic list styling so that it is displayed inline */
+
 li {
   display: inline-block;
 }
+
+/* generic styling for the a tags */
 
 a {
   display: block;
@@ -59,13 +72,19 @@ a {
   border: goldenrod;
 }
 
-.Tlogo{
+/* specific applied styling for the Gif image on the banner- made the background transparent so it didnt interfere with image behind it when user is clicking or hovering */
+
+.Tlogo {
   background: transparent;
 }
 
-.Tlogo:hover{
-background: transparent;
+/* specific styling for the Gif image on the banner , made the hover transparent so that user experience is more pleasant and the UI looks cleaner. */
+
+.Tlogo:hover {
+  background: transparent;
 }
+
+/* Styling for the logo so that it appears top left */
 
 .logo {
   float: left;
@@ -75,32 +94,43 @@ background: transparent;
   color: goldenrod;
 }
 
+/* Styling on the logo in particular for the a tag so that it doenst show underline */
+
 .logo a {
   text-decoration: none;
 }
 
+
+/* Styling on the logo in particular for the a tag so that it doenst show hover decoration */
 .logo a:hover {
   background: none;
 }
+
+/* Styling for the register and login buttons so that they appear on the right hand side */
 
 .regLog {
   float: right;
 }
 
-
+/* Styling for the H1 tags so that they appear in the correct colour as documented in the schema. */
 
 h1 {
   color: goldenrod;
 }
 
+/* styling to amend margin distance from the heading title. */
+
 .tbsHeader {
   margin-left: 20px;
 }
+
+/* styling to amend margin distance from the heading title. */
 
 .welcomeHeading {
   margin-left: 20px;
 }
 
+/* styling for the articles so that they are justified, correctly positioned from margin, have a border to control layout and padding to affect the look. */
 .articles {
   text-align: justify;
   margin-left: 20px;
@@ -112,6 +142,8 @@ h1 {
   padding-left: auto;
 }
 
+/* styling for the book button so that it appears on the right hand side of the text and is correctly style both in look and placement. */
+
 .book {
   float: right;
   border: 2px solid goldenrod;
@@ -120,27 +152,26 @@ h1 {
   margin-left: 20px;
 }
 
+/* styling to remove the topnav bar when being used by a desktop or wide screen,  which is only applicable to the mobile site. */
+
 .topnav {
   display: none;
 }
+
+/* styling to theme the footer basics*/
 
 footer {
   background: black;
   margin-top: 40px;
   padding: 40px;
 }
+
+/* styling to theme the footer text */
+
 footer > div > p {
   color: white;
   text-align: center;
   font-size: 0.8rem;
 }
 
-/* This is the sliding photos */
 
-/* .scrollText {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; */
