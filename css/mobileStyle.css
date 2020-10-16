@@ -1,6 +1,6 @@
-body{
+body {
   background-color: black;
-  color: white
+  color: white;
 }
 
 /* relative image for mobile site pertaining to Book Now image */
@@ -23,8 +23,7 @@ img {
   display: none;
 }
 
-
-.welcomeHeading{
+.welcomeHeading {
   color: goldenrod;
 }
 
@@ -42,9 +41,8 @@ img {
   display: none;
 }
 
-.regMob{
+.regMob {
   float: right;
-
 }
 
 .logMob {
@@ -57,6 +55,19 @@ img {
   background-color: transparent;
 }
 
+.mobileWelcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../imagesHtml/welcomeMob.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 6.25%;
+}
+
+.mobileWelcomeText {
+  text-align: center;
+}
 
 /* Styling to customise the top navigation bar a tags/text to white and in block */
 

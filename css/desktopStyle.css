@@ -130,6 +130,13 @@ h1 {
   margin-left: 20px;
 }
 
+
+
+.mobileWelcome{
+  display: none;
+}
+
+
 /* styling for the articles so that they are justified, correctly positioned from margin, have a border to control layout and padding to affect the look. */
 .articles {
   text-align: justify;
