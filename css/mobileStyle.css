@@ -42,6 +42,22 @@ img {
   display: none;
 }
 
+.regMob{
+  float: right;
+
+}
+
+.logMob {
+  float: right;
+  background-color: transparent;
+  color: black;
+}
+
+.regMob a :hover {
+  background-color: transparent;
+}
+
+
 /* Styling to customise the top navigation bar a tags/text to white and in block */
 
 .topnav a {
