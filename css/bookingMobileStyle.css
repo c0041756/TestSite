@@ -55,6 +55,12 @@ body{
     color: black;
   }
   
+
+h1{
+  color: goldenrod;
+}
+
+
   .active {
     background-color:black;
     color: white;

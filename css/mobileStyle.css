@@ -23,6 +23,11 @@ img {
   display: none;
 }
 
+
+.welcomeHeading{
+  color: goldenrod;
+}
+
 /* styling to customise the top navigation bar dropdown*/
 
 .topnav {
