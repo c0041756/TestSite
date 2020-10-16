@@ -10,9 +10,10 @@
 }
 
 
-.bookingPageVertImage>img{
+.bookingPageDispImage{
   float: right;
-}
+  display: grid;
+  }
 
 .mobile-container {
     max-width: 480px;
