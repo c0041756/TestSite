@@ -60,7 +60,9 @@ h1 {
   margin-left: 20px;
 }
 
-
+.bookingPageVertImage{
+  display: none;
+}
 
 footer {
   background: black;
