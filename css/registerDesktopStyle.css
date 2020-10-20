@@ -9,6 +9,9 @@ main {
   margin: auto;
 }
 
+.registerPageDispImage{
+  display: none;
+}
 
 ul {
   list-style-type: none;
