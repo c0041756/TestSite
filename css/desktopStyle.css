@@ -175,6 +175,12 @@ h1 {
   display: none;
 }
 
+footer li{
+  color: white;
+  font-size: 0.8rem;
+}
+
+
 /* styling to theme the footer basics*/
 
 footer {

@@ -71,12 +71,14 @@ body {
 
 
 
-h1{
-    text-align:center;
-    color: goldenrod;
+h2{
+  color: goldenrod;
+  text-align: center;
 }
 
-
+h3{
+  color: goldenrod;
+}
 
 
 
