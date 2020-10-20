@@ -47,13 +47,16 @@ img {
 
 .logMob {
   float: right;
-  background-color: transparent;
-  color: black;
+ }
+
+.regMob a :hover{
+  background: transparent;
 }
 
-.regMob a :hover {
-  background-color: transparent;
-}
+
+
+
+
 
 .mobileWelcome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -96,15 +99,11 @@ img {
 /* styling to customise top navigational bar to theme and sort colour when hovering. */
 
 .topnav a:hover {
-  background-color: goldenrod;
-  color: black;
+  background-color: black;
+  color: goldenrod;
 }
 
-/* styling to customise the block level menu for mobile view/nav */
-.active {
-  background-color: black;
-  color: white;
-}
+
 
 /* styling to hide the unorderd list which is only applicable desktop site. */
 
