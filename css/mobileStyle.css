@@ -63,7 +63,8 @@ img {
   background-size: cover;
   position: relative;
   padding-bottom: 6.25%;
-}
+  
+ }
 
 .mobileWelcomeText {
   text-align: center;

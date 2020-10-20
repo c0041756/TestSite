@@ -50,6 +50,16 @@ ul {
   color: white;
 }
 
+.bannerBook{
+  position: relative;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+
+
+
+
 /* generic hover styling for the a tags which are links */
 
 a:hover {

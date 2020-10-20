@@ -84,11 +84,6 @@ a.tcLinks{
   padding: 0px;
 }
 
-a.tcLinks:hover{
-background: goldenrod;
-
-}
-
 
 footer {
   background: black;
@@ -115,3 +110,4 @@ footer > div > p {
 .registerText{
   text-align: center;
 }
+
