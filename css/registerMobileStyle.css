@@ -8,7 +8,6 @@ body {
 }
 
 
-
 relative image for mobile site pertaining to Book Now image
 img {
     width: auto;
@@ -67,10 +66,9 @@ img {
     color: white;
   }
 
-
-  ul {
-      display: none;
-  }
+  /* ul {
+  display: none;
+  } */
 
   .articles {
     text-align: justify;
@@ -105,6 +103,12 @@ img {
 .logo{display: none;
 }
 
+
+.registerPageDispImage{
+  float: right;
+  display: grid;
+  padding-top: 30px;
+}
 
 .heroImage{
 display: none;
@@ -155,6 +159,9 @@ display: none;
   color: white;
 }
 
+.registerText{
+  display: none;
+}
 
 h1{
   color: goldenrod;
