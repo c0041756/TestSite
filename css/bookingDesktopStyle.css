@@ -9,6 +9,9 @@ main {
   margin: auto;
 }
 
+h3{
+  color: goldenrod;
+}
 
 ul {
   list-style-type: none;
